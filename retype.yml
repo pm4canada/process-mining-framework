@@ -1,0 +1,14 @@
+input: .
+output: .retype
+url: # Add your website address here
+branding:
+  title: Process Mining Framework
+  logo: /icon.png
+footer:
+  copyright: " &copy; Made in Canada with love and maple syrup."
+breadcrumb:
+  enabled: true               # Enabled by default on Pro projects
+  home: Home                  # Custom label for the first item
+  home: home         # or, use an icon
+  separator: "|"              # Custom item separator
+  
