@@ -1,0 +1,120 @@
+{
+  "version": "3.6.0",
+  "created": "2024-10-16T01:16:22Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "framework/analysis/index.html"
+    },
+    {
+      "path": "framework/data-access-process-mining-briefing-note.docx"
+    },
+    {
+      "path": "framework/data-preparation/index.html"
+    },
+    {
+      "path": "framework/process-evaluation-questionnaire.docx"
+    },
+    {
+      "path": "framework/process-intake-questionnaire.docx"
+    },
+    {
+      "path": "framework/process-qualification/index.html"
+    },
+    {
+      "path": "future/index.html"
+    },
+    {
+      "path": "icon.png"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "introduction/pm-vs-bi.jpg"
+    },
+    {
+      "path": "introduction/pm-vs-bi/index.html"
+    },
+    {
+      "path": "introduction/what-is-pm.png"
+    },
+    {
+      "path": "introduction/what-is-pm/index.html"
+    },
+    {
+      "path": "introduction/why-pm.png"
+    },
+    {
+      "path": "introduction/why-pm/index.html"
+    },
+    {
+      "path": "process-mining-resources/books/index.html"
+    },
+    {
+      "path": "process-mining-resources/software/index.html"
+    },
+    {
+      "path": "process-mining-resources/training-courses/index.html"
+    },
+    {
+      "path": "psdc-proposal.png"
+    },
+    {
+      "path": "psdc-proposal2.png"
+    },
+    {
+      "path": "psdc.png"
+    },
+    {
+      "path": "psdc/index.html"
+    },
+    {
+      "path": "resources/css/retype.css"
+    },
+    {
+      "path": "resources/fonts/Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources/fonts/Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources/js/config.js"
+    },
+    {
+      "path": "resources/js/lunr.js"
+    },
+    {
+      "path": "resources/js/retype.js"
+    },
+    {
+      "path": "resources/js/search.json"
+    },
+    {
+      "path": "resources/lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    }
+  ]
+}
