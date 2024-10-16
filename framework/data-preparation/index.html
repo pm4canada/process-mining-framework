@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.782357550960">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.782359461860">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Data Preparation</title>
     <meta name="title" content="Data Preparation">
-    <meta name="description" content="Process mining uses digital footprints inside existing information systems to generate what are known as event logs.">
+    <meta name="description" content="The Government of Canada is sitting on a gold mine of data. Some of this data is more suitable for process mining than others.">
 
     <!-- Canonical -->
     <link rel="canonical" href="/framework/data-preparation/">
@@ -20,21 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="/framework/data-preparation/">
     <meta property="og:title" content="Data Preparation">
-    <meta property="og:description" content="Process mining uses digital footprints inside existing information systems to generate what are known as event logs.">
+    <meta property="og:description" content="The Government of Canada is sitting on a gold mine of data. Some of this data is more suitable for process mining than others.">
+    <meta property="og:image" content="/framework/pmia-impact-value.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/framework/data-preparation/">
     <meta property="twitter:title" content="Data Preparation">
-    <meta property="twitter:description" content="Process mining uses digital footprints inside existing information systems to generate what are known as event logs.">
+    <meta property="twitter:description" content="The Government of Canada is sitting on a gold mine of data. Some of this data is more suitable for process mining than others.">
+    <meta property="twitter:image" content="/framework/pmia-impact-value.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.782357550960" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.782359461860" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.782357550960" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.782359461860" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.782357550960" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.782359461860" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -159,6 +161,41 @@
         <span>Data Preparation</span>
     </h1>
 </doc-anchor-target>
+<p>The Government of Canada is sitting on a gold mine of data. Some of this data is more suitable for process mining than others. The goal of this section is to help provide insights on how to find and identify good data, negotiate access, clean data, and prepare it for your process mining analysis. Combining the insights in this section with the process qualification questionnaires (above) should allow you to identify process mining projects that deliver a promising return on investment.</p>
+<doc-anchor-target id="where-to-start">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#where-to-start">#</doc-anchor-trigger>
+        <span>Where to Start</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../pmia-impact-value.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+The most mined process in academic literature is the procure-to-pay (P2P) process. As cited in Reinkemeyer (2024), the core processes of accounts payable, procure-to-pay, order-to-cash and accounts receivable account for more than 50% of the total value realized by private companies. Starting with data within your ERP system can often be a quick way to show the value of process mining, as ERPs typically possess good audit logs of activities.</p>
+<p>Within  Government, good processes to start with would be high-volume processes running on ERP or case management systems. Platforms such as SAP, Salesforce and Microsoft Dynamics collecting logs that are ripe for process mining. These platforms are even starting to embed process mining as part of their core platform.</p>
+<doc-anchor-target id="negotiating-access-to-data">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#negotiating-access-to-data">#</doc-anchor-trigger>
+        <span>Negotiating Access to Data</span>
+    </h2>
+</doc-anchor-target>
+<p>Obtaining access to data is one of the hardest parts of process mining. People who are new to Process Mining may not fully understand it, or fear that it may expose issues within their business that are not well perceived. In a Government context where anything can be publicly scrutanized (e.g. ATIP), this is especially true. To help teams obtain management consent to access process mining data, we&#x27;ve prepared a briefing note template to help accelerate the process.</p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
+    <div class="flex items-center text-blue-500 dark:text-blue-400">
+        <span class="inline-block mb-px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M3 3a2 2 0 0 1 2-2h9.982a2 2 0 0 1 1.414.586l4.018 4.018A2 2 0 0 1 21 7.018V21a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm2-.5a.5.5 0 0 0-.5.5v18a.5.5 0 0 0 .5.5h14a.5.5 0 0 0 .5-.5V8.5h-4a2 2 0 0 1-2-2v-4Zm10 0v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 0-.146-.336l-4.018-4.018A.5.5 0 0 0 15 2.5Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Sample Briefing Note (DOCX)</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>data-access-process-mining-briefing-note.docx</span>
+        <span class="inline-block ml-2">35.6KB</span>
+    </div>
+    <a href="../data-access-process-mining-briefing-note.docx" class="absolute block inset-0" target="_blank" download="data-access-process-mining-briefing-note.docx"></a>
+</div>
+</p>
 <doc-anchor-target id="minimum-data-requirements">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#minimum-data-requirements">#</doc-anchor-trigger>
@@ -268,26 +305,25 @@
     <a href="https://www.tf-pm.org/resources/logs" class="absolute block inset-0"></a>
 </div>
 </p>
-<doc-anchor-target id="negotiating-access-to-data">
+<doc-anchor-target id="data-quality-checklist">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#negotiating-access-to-data">#</doc-anchor-trigger>
-        <span>Negotiating Access to Data</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-quality-checklist">#</doc-anchor-trigger>
+        <span>Data Quality Checklist</span>
     </h2>
 </doc-anchor-target>
-<p>Obtaining access to data is one of the hardest parts of process mining. People who are new to Process Mining may not fully understand it, or fear that it may expose issues within their business that are not well perceived. In a Government context where anything can be publicly scrutanized (e.g. ATIP), this is especially true. To help teams obtain management consent to access process mining data, we&#x27;ve prepared a briefing note template to help accelerate the process.</p>
+<p>The team at Fluxcion (authors of the <a href="https://www.fluxicon.com/disco/">Disco PM software</a>) have a great data quality checklist that we include below:</p>
 <p>
 <div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
     <div class="flex items-center text-blue-500 dark:text-blue-400">
         <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M3 3a2 2 0 0 1 2-2h9.982a2 2 0 0 1 1.414.586l4.018 4.018A2 2 0 0 1 21 7.018V21a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm2-.5a.5.5 0 0 0-.5.5v18a.5.5 0 0 0 .5.5h14a.5.5 0 0 0 .5-.5V8.5h-4a2 2 0 0 1-2-2v-4Zm10 0v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 0-.146-.336l-4.018-4.018A.5.5 0 0 0 15 2.5Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"/></svg>
         </span>
-        <span class="inline-block font-medium ml-2">Sample Briefing Note (DOCX)</span>
+        <span class="inline-block font-medium ml-2">Data Quality Checklist by Fluxicon</span>
     </div>
     <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
-        <span>data-access-process-mining-briefing-note.docx</span>
-        <span class="inline-block ml-2">35.6KB</span>
+        <span>https://files.fluxicon.com/Templates/Data-Quality-Checklist.pdf</span>
     </div>
-    <a href="../data-access-process-mining-briefing-note.docx" class="absolute block inset-0" target="_blank" download="data-access-process-mining-briefing-note.docx"></a>
+    <a href="https://files.fluxicon.com/Templates/Data-Quality-Checklist.pdf" target="_blank" class="absolute block inset-0"></a>
 </div>
 </p>
 <doc-anchor-target id="data-extraction--cleaning">
@@ -296,12 +332,12 @@
         <span>Data Extraction &amp; Cleaning</span>
     </h2>
 </doc-anchor-target>
-<p>Data extraction and cleaning is by far the longest part of a process mining project. As we mentioned above, data quality differs, depending on the source system. There are two ways to extract data into an event-log format:</p>
+<p>Data extraction and cleaning is by far the longest part of a process mining project. As we mentioned above, data quality differs, depending on the source system. There are two ways of extracting data from a source system:</p>
 <ol>
 <li>Using plug-ins (aka connectors) provided process mining tools to connect directly to source systems.</li>
 <li>Manual data extraction via a database or API export.</li>
 </ol>
-<p>If you’re lucky enough to be working with a source system and process mining tool that has a ready-made connector, then option #1 is surely the best way forward and will accelerate time to value. However, in many cases, option #2 will prevail. Most PM projects we’ve undertaken in the GC (so far) used option #2 as it was rare for us to get permission to connect directly to source systems without an intermediary who would filter data exports to ensure no confidential or personal information was shared. Likewise, often selective exports of data are stored in data lakes/warehouses, which</p>
+<p>If you’re lucky enough to be working with a source system and process mining tool that has a ready-made connector, then option #1 is surely the best way forward and will accelerate time to value. However, in many cases, option #2 will prevail. Most PM projects we’ve undertaken in the GC (so far) used option #2 as it was rare for us to get permission to connect directly to source systems without an intermediary data analyst who would filter data exports to ensure no confidential or personal information was shared.</p>
 <p>
 <div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
     <div class="flex items-center text-blue-500 dark:text-blue-400">
@@ -316,12 +352,11 @@
     <a href="https://github.com/ProcessMining-uOttawa/logprep4pm" target="_blank" class="absolute block inset-0"></a>
 </div>
 </p>
-<p>When engaging in option 2, we’ve made heavy use of Python, the popular Pandas library and the logprep4pm module developed in collaboration with the University of Ottawa. This approach has several benefits:</p>
+<p>When engaging in option 2, we’ve made heavy use of Python, the popular <a href="https://pandas.pydata.org/">Pandas library</a> and the <a href="https://github.com/ProcessMining-uOttawa/logprep4pm">logprep4pm</a> module developed in collaboration with the University of Ottawa. This approach has several benefits:</p>
 <ul>
 <li>The use of Jupyter notebooks and Pandas allows you to document the steps taken to clean your dataset and transform it into event log format. This enhances reproducibility.</li>
 <li>The notebook can be easily turned into a Python script for continuously updating new data into a process mining tool.</li>
 </ul>
-<p>a</p>
 
                                 
                                 <!-- Required only on API pages -->
