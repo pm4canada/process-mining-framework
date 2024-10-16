@@ -45,3 +45,5 @@ If you’re lucky enough to be working with a source system and process mining t
 When engaging in option 2, we’ve made heavy use of Python, the popular Pandas library and the logprep4pm module developed in collaboration with the University of Ottawa. This approach has several benefits: 
 -	The use of Jupyter notebooks and Pandas allows you to document the steps taken to clean your dataset and transform it into event log format. This enhances reproducibility. 
 -	The notebook can be easily turned into a Python script for continuously updating new data into a process mining tool.
+
+a
