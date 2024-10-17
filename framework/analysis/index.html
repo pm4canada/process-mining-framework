@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.782359461860">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.782496209375">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Mining &amp; Analysis</title>
-    <meta name="title" content="Mining & Analysis">
+    <title>Process Mining &amp; Analysis</title>
+    <meta name="title" content="Process Mining & Analysis">
+    <meta name="description" content="The fun part of process mining is the analysis that comes from good, clean and representative data. Process Mining is an interative process.">
 
     <!-- Canonical -->
     <link rel="canonical" href="/framework/analysis/">
@@ -18,20 +19,24 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="/framework/analysis/">
-    <meta property="og:title" content="Mining & Analysis">
+    <meta property="og:title" content="Process Mining & Analysis">
+    <meta property="og:description" content="The fun part of process mining is the analysis that comes from good, clean and representative data. Process Mining is an interative process.">
+    <meta property="og:image" content="/framework/publication.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/framework/analysis/">
-    <meta property="twitter:title" content="Mining & Analysis">
+    <meta property="twitter:title" content="Process Mining & Analysis">
+    <meta property="twitter:description" content="The fun part of process mining is the analysis that comes from good, clean and representative data. Process Mining is an interative process.">
+    <meta property="twitter:image" content="/framework/publication.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.782359461860" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.782496209375" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.782359461860" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.782496209375" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.782359461860" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.782496209375" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -150,12 +155,37 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="mining--analysis" class="break-words">
+<doc-anchor-target id="process-mining--analysis" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#mining--analysis">#</doc-anchor-trigger>
-        <span>Mining &amp; Analysis</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#process-mining--analysis">#</doc-anchor-trigger>
+        <span>Process Mining &amp; Analysis</span>
     </h1>
 </doc-anchor-target>
+<p>The fun part of process mining is the analysis that comes from good, clean and representative data. Process Mining is an interative process. As you prepare your event log, you will go through multiple iterations of data cleansing until you&#x27;re satisfied that the process model discovered in your process mining software represents the true process model. This is why we recommend the use of Jupyter Notebooks in conjunction with the <a href="https://github.com/ProcessMining-uOttawa/logprep4pm">logprep4pm</a> Python module previously mentioned. This approach allows you to document the steps you&#x27;ve taken to prepare your dataset for process mining. It will come in handy in the future as you may forget what steps you took and why.</p>
+<p>Once your dataset is ready, it&#x27;s time to perform analysis. Make sure to validate your process model with the process owner as they may highlight any gaps or inaccuracies that might need reivision. Go back to the research questions you initially proposed and see if you can answer them with the generated process model. You may also discover new findings (after the fact) that weren&#x27;t part of your original research questions. Some initial questions you might pose include:</p>
+<ol>
+<li>What is the mean and median processing time for a case? Is this too long?</li>
+<li>Where are the bottlenecks and are they major?</li>
+<li>Is there a clear happy path illustrated in the process model or does it look like spaghetti?</li>
+<li>Is there a lot of re-work?</li>
+<li>Where are the quick wins that we can implement quickly?</li>
+<li>If we reassign work to a different resource, would the processing time improve?</li>
+</ol>
+<p>This list is not meant to be exhaustive. There are many dimensions to process analysis. We recommend looking at example case studies to help understand the possibilities and remedies.</p>
+<doc-anchor-target id="a-case-study-in-the-government-of-canada">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#a-case-study-in-the-government-of-canada">#</doc-anchor-trigger>
+        <span>A Case Study in the Government of Canada</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-right">
+    <a href="https://ruor.uottawa.ca/items/eb3902c2-7704-4cf6-92ec-110b2f669b5f">
+        <img src="../publication.png" alt="">
+    </a>
+    <figcaption class="caption caption-float"></figcaption>
+</figure>
+To illustrate Process Mining in action within the Government of Canada, we have published a workshop paper at the <a href="https://icpmconference.org/">International Conference on Process Mining</a>. It outlines our methodology, findings and positive impacts on improving the digital service delivery of personnel security screening. The interventions applied within our case study not only helped reduce the time to process security clearances, but also accelerated hiring time as a result. Though this work was carried out in only one government department, it serves as a model for how other Government departments can improve their personnel security screening processs.</p>
+<p>To better understand the analysis phase of our framework, we encourage you to <a href="https://ruor.uottawa.ca/items/eb3902c2-7704-4cf6-92ec-110b2f669b5f">read this article</a>. There are sample <a href="https://github.com/ProcessMining-uOttawa/logprep4pm/blob/main/logprep4pm-example.ipynb">Jupyter notebooks</a> that illustrate how we cleaned our data, along with example process maps generated from our dataset.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -222,6 +252,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Mining & Analysis", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Process Mining & Analysis", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
