@@ -1,15 +1,16 @@
 ---
 icon: stack
+order: 102
 ---
 # Data Preparation
 
 The Government of Canada is sitting on a gold mine of data. Some of this data is more suitable for process mining than others. The goal of this section is to help provide insights on how to find and identify good data, negotiate access, clean data, and prepare it for your process mining analysis. Combining the insights in this section with the process qualification questionnaires (above) should allow you to identify process mining projects that deliver a promising return on investment.
 
 ## Where to Start
-![](/framework/pmia-impact-value.png)
+![Source: Process Intelligence in Action by Lars Reinkemeyer (2024)](/framework/pmia-impact-value.png)
 The most mined process in academic literature is the procure-to-pay (P2P) process. As cited in Reinkemeyer (2024), the core processes of accounts payable, procure-to-pay, order-to-cash and accounts receivable account for more than 50% of the total value realized by private companies. Starting with data within your ERP system can often be a quick way to show the value of process mining, as ERPs typically possess good audit logs of activities.
 
-Within  Government, good processes to start with would be high-volume processes running on ERP or case management systems. Platforms such as SAP, Salesforce and Microsoft Dynamics collecting logs that are ripe for process mining. These platforms are even starting to embed process mining as part of their core platform.
+Within  Government, good processes to start with would be high-volume processes running on ERP or case management systems. Platforms such as SAP, Salesforce and Microsoft Dynamics typically collect logs that are ripe for process mining. These platforms are even starting to embed process mining functionality as part of their core platform.
 
 ## Negotiating Access to Data
 Obtaining access to data is one of the hardest parts of process mining. People who are new to Process Mining may not fully understand it, or fear that it may expose issues within their business that are not well perceived. In a Government context where anything can be publicly scrutanized (e.g. ATIP), this is especially true. To help teams obtain management consent to access process mining data, we've prepared a briefing note template to help accelerate the process. 

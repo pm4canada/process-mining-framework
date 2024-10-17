@@ -3,7 +3,7 @@ icon: git-merge
 order: 101
 ---
 # What is Process Mining?
-![](/introduction/what-is-pm.png)
+![Author: Van der aalst, 2011](/introduction/what-is-pm.png)
 Process mining is a family of techniques used to analyze operational processes derived from event logs. Event logs can be found in many different types of information systems, from enterprise resource planning (ERP) systems (e.g., SAP) to case management platforms like Microsoft Dynamics. Event logs can also be found in IoT or embedded systems in industrial/manufacturing settings. The term event log is often synonymous with the more familiar term “audit logs”.  
 
 Event logs consist of digital footprints or activities taken throughout the lifecycle of a case. For example, when you apply for a passport, you submit an application with your photos, references, payment and other forms. As your application is processed, events are recorded in a system. One officer might verify your references while another may print the actual passport, and a third packages it for delivery to your home address. Each of these activities (i.e. events) are recorded in a system until the passport application is completed. We can extract these events in the form of an event log, that allows us to view the process, its performance and any bottlenecks with process mining tools.
