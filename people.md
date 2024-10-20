@@ -10,7 +10,7 @@ This work could not have happened without the support and contributions of a num
 - Ghada Abo Elseoud (Health Canada)
 - Dorin Cornel Horac (Immigration, Refugees and Citizenship Canada)
 - Deepak Kallepalli (Transport Canada)
-- Kavya Mallur (Transport Canada)
+- [Kavya Mallur](https://www.linkedin.com/in/kavya-mallur-37b87517/) (Transport Canada)
 - Louis-Philippe Préfontaine-Dastous (Transport Canada)
 - [Jacques Trottier](https://www.linkedin.com/in/jjtrottier/) (Health Canada)
 
